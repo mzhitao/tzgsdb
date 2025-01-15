@@ -163,5 +163,4 @@ const seedEmployees = async () => {
         console.error("数据插入失败:", error);
     }
 };
-
 export default seedEmployees;
