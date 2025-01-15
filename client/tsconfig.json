@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": true,
+    "allowJs": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@@/*": ["./src/.umi/*"],
+      "@@test/*": ["./src/.umi-test/*"],
+      "@umijs/plugin-layout/types": ["./.umi/plugin-layout/types"]
+    }
+  },
+  "include": ["./**/*.d.ts", "./**/*.ts", "./**/*.tsx"]
+}
