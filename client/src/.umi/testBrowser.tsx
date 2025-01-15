@@ -3,15 +3,15 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useEffect, useState } from 'react';
 import { ApplyPluginsType } from 'umi';
-import { renderClient, RenderClientOpts } from '/home/mao/ant-design-pro/client/node_modules/@umijs/renderer-react';
+import { renderClient, RenderClientOpts } from '/home/mao/tzgsdb/client/node_modules/@umijs/renderer-react';
 import { createHistory } from './core/history';
 import { createPluginManager } from './core/plugin';
 import { getRoutes } from './core/route';
 import type { Location } from 'history';
 
 
-import '/home/mao/ant-design-pro/client/src/global.less';
-import '/home/mao/ant-design-pro/client/src/global.tsx';
+import '/home/mao/tzgsdb/client/src/global.less';
+import '/home/mao/tzgsdb/client/src/global.tsx';
 import 'antd/dist/reset.css';
 const publicPath = '/';
 const runtimePublicPath = false;

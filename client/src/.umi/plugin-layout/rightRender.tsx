@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import React from 'react';
 import { Avatar, version, Dropdown, Menu, Spin } from 'antd';
-import { LogoutOutlined } from '/home/mao/ant-design-pro/client/node_modules/@umijs/plugins/node_modules/@ant-design/icons';
+import { LogoutOutlined } from '/home/mao/tzgsdb/client/node_modules/@umijs/plugins/node_modules/@ant-design/icons';
 import { SelectLang } from '@@/plugin-locale';
 
 export function getRightRenderContent (opts: {
