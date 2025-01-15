@@ -25,4 +25,9 @@ const startServer = async () => {
   }
 };
 
+const mao=async()=>{
+    await syncDatabase();
+    console.log("Database synced successfully");
+}
+
 startServer();
