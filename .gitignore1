@@ -1,0 +1,81 @@
+# Node.js 相关
+node_modules/
+npm-debug.log
+package-lock.json
+
+# TypeScript 相关
+*.tsbuildinfo
+
+# React 相关
+.DS_Store # macOS 系统下的隐藏文件
+
+# 编辑器相关
+.vscode/
+.idea/
+*.sublime-workspace
+
+# 操作系统相关文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+logs/
+*.log
+
+# 编译生成的文件
+dist/
+build/
+
+# 环境配置文件
+.env
+.env.local
+.env.*.local
+
+# 其他
+*.swp
+*.bak
+*.tmp
+*~
+
+# 忽略所有以 .map 结尾的文件
+*.map
+
+# 忽略所有以 .cache 结尾的文件
+*.cache
+
+# 忽略所有以 .buildinfo 结尾的文件
+*.buildinfo
+
+# 忽略所有以 .npmrc 结尾的文件
+.npmrc
+
+# 忽略所有以 .yarnrc 结尾的文件
+.yarnrc
+
+# 忽略所有以 .yarn 结尾的文件
+.yarn/
+
+# 忽略所有以 .vscode 结尾的文件
+.vscode/
+
+# 忽略所有以 .gitignore 结尾的文件
+.gitignore
+
+# 忽略所有以 .git 结尾的文件
+.git/
+
+# 忽略所有以 .vs 结尾的文件
+.vs/
+
+# 忽略所有以 .vscode 结尾的文件
+.vscode/
+
+# 忽略所有以 .vscodeignore 结尾的文件
+.vscodeignore
+
+# 忽略所有以 .vscodeignore 结尾的文件
+.vscodeignore
+
+# 忽略所有以 .vscodeignore 结尾的文件
+.vscodeignore
